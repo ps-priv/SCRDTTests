@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConsolePiSqlNetCore": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

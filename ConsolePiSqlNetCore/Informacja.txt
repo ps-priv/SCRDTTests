@@ -1,0 +1,21 @@
+﻿
+Info ogólne
+=============
+
+Plik Dockerfile - to kontener windowsowy
+Plik Dockerfile.Linux - to kontener linuksowy
+
+Budowanie kontenerow
+======================
+docker build . -f .\ConsolePiSqlNetCore\Dockerfile -t <nazwa kontenera>:dev
+
+docker build . -f .\ConsolePiSqlNetCore\Dockerfil.Linux -t <nazwa kontenera>:dev
+
+
+Uruchamianie kontenerów
+=========================
+Uruchomienie w terminalu, interakcja z terminalem (-it)
+
+docker run <nazwa kontenera>:dev -it
+
+

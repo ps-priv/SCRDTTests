@@ -18,4 +18,4 @@ var tester = new OleDbDatabaseTester(piConnectionString);
 tester.GetData(SqlQueryHelper.EmptyQuery);
 
 Console.WriteLine("Koniec");
-Console.ReadKey();
+//Console.ReadKey();
